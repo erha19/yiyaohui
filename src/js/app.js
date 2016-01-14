@@ -1,5 +1,5 @@
 window.onload = function() {
-
+    document.querySelector('.ct-body').style.marginTop=(window.innerHeight-600)/2+'px';
 	function $(ele) {
 		this.ele = document.querySelector(ele);
 		this.addClass = addClass;

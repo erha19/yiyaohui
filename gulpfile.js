@@ -92,7 +92,7 @@ function sync() {
              baseDir: './src'
         }
     });
-    gulp.watch("./sass/*.scss", ['sass']);
+    gulp.watch(SRC+"/sass/*.scss", ['sass']);
     gulp.watch(files).on('change', reload);
 }
 

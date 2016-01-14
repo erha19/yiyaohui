@@ -10,7 +10,6 @@
         width = window.innerWidth;
         height = window.innerHeight;
         target = {x: x, y: y};
-
         largeHeader = document.getElementById('large-header');
         largeHeader.style.height = height+'px';
 
