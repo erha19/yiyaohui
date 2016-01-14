@@ -103,13 +103,17 @@ gulp.task('sass', function(){
         .pipe(gulp.dest('./css'))
         .pipe(reload({stream: true}));
 });
+
 gulp.task('browser-sync',['sass'],sync);
+
 gulp.task('js',js)
+
 gulp.task('css',css)
+
 gulp.task('copy',copy)
+
 gulp.task('md5',md5)
+
 gulp.task('rel',rel)
-// gulp.task('html',['css'],html)
-// gulp.task('md5',['html',md5])
 
 gulp.task('default', ['md5']);
