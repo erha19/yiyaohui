@@ -55,6 +55,7 @@ body {
 .ct-body {
   min-height: 550px;
   margin-top: 30px;
+  margin:auto;
   margin-bottom: 10px; }
   .ct-body .ct-left-box {
     float: left;
@@ -73,7 +74,7 @@ body {
   .ct-body .ct-right-box {
     float: left;
     height: 550px;
-    width: 600px; }
+   }
     .ct-body .ct-right-box .ct-info-box {
       width: 450px;
       min-height: 200px;
